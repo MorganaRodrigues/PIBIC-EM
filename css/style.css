@@ -68,6 +68,7 @@
     font-size: 16px;
     border: 2px solid #f25c21;
     padding: 16px;
+    width: 85%;
     background-color: #fecebd;
   }
  
@@ -83,7 +84,8 @@
   .logo {
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: flex;
+    width: 50%;
   }
   
   .equipe {
@@ -98,9 +100,9 @@
   .cancer {
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
     justify-content: center;
     align-items: center;
+    padding: 20px;
   }
   
   .equipe p {
@@ -113,7 +115,6 @@
   
   .main {
     background-color: #e6e6fa;
-    padding: 10px;
   }
   
   .intro {
@@ -148,9 +149,9 @@
   .organiza {
     justify-content: center;
     align-items: center;
-    color: white;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
   }
   
   .aa{
@@ -186,6 +187,39 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+  }
+  .ttt{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+
+  }
+  .tttt{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+
+  }
+  .ttttt{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
 
   }
 
@@ -242,7 +276,16 @@
     border: 4px solid #3d297e;
     background-color: #bfc2ee;
   }
-  
+  .efeitop {
+    transition: all 0.5s;
+    border: 4px solid transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .efeitop:hover {
+    border: 4px solid #3d297e;
+    background-color: #bfc2ee;
+  }
   .espaco {
     margin-right: 40px;
     transition: all 0.5s;
@@ -315,7 +358,8 @@
   .fim {
     text-align: left;
     font-size: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
   }
   
   @media (max-width: 700px) {
@@ -324,7 +368,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 20px;
       flex: none;
       flex-wrap: unset;
   }
@@ -334,6 +377,7 @@
   .header p{
     font-size: 14px;
   }
+ 
 }
 
   @media (max-width: 1082px) {
@@ -354,6 +398,28 @@
     }
     .tt{
       flex-direction: column;
+    }
+    .t{
+      flex-direction: column;
+    }
+    .teste{
+      flex-direction: column;
+
+
+    }
+    .efeitop{
+      margin-top: 2%;
+margin-left: 0%;
+margin-right: 0%;
+    }
+    .ttt{
+      width: 70%;
+    }
+    .tttt{
+      width: 90%;
+    }
+    .ttttt{
+      width: 100%;
     }
   }
   .chart-wrapper {
