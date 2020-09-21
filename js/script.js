@@ -1,6 +1,6 @@
 let ctx = document.getElementById("myChart").getContext("2d");
 let labels = ["Sim", "Não"];
-let colorHex = ["#3d297e", "#f25c21"];
+let colorHex = ["#42177e", "#f25c21"];
 let myChart = new Chart(ctx, {
   type: "pie",
   data: {
@@ -97,7 +97,7 @@ let labels3 = [
   "Combinar a imparcialidade da regra de ouro e a maximização da felicidade",
   "Nenhuma das alternativas anteriores",
 ];
-let colorHex3 = ["#3d297e", "#EFCA08", "#df0c75","#f25c21" ];
+let colorHex3 = ["#3d297e", "#EFCA08", "#df0c75", "#f25c21"];
 let terceiro3 = new Chart(ctx3, {
   type: "pie",
   data: {
