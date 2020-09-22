@@ -1,16 +1,16 @@
-let ctx = document.getElementById("myChart").getContext("2d");
-let labels = ["Sim", "Não"];
-let colorHex = ["#42177e", "#f25c21"];
-let myChart = new Chart(ctx, {
+let ctx1 = document.getElementById("um").getContext("2d");
+let labels1 = ["A", "B"];
+let colorHex1 = ["#42177e", "#f25c21"];
+let um = new Chart(ctx1, {
   type: "pie",
   data: {
     datasets: [
       {
         data: [21, 79],
-        backgroundColor: colorHex,
+        backgroundColor: colorHex1,
       },
     ],
-    labels: labels,
+    labels: labels1,
   },
   options: {
     responsive: true,
@@ -41,16 +41,10 @@ let myChart = new Chart(ctx, {
   },
 });
 
-let ctx2 = document.getElementById("segundo2").getContext("2d");
-let labels2 = [
-  "Felicidade/bem-estar",
-  "Respeito mútuo",
-  "Satisfação",
-  "Cooperação",
-  "Liberdade civis",
-];
-let colorHex2 = ["#3d297e", "#f25c21", "#FB3640", "#EFCA08", "#df0c75"];
-let segundo2 = new Chart(ctx2, {
+let ctx2 = document.getElementById("dois").getContext("2d");
+let labels2 = ["A", "B", "C", "D", "E"];
+let colorHex2 = ["#42177e", "#f25c21", "#df0c75", "#EFCA08", "#FB3640"];
+let dois = new Chart(ctx2, {
   type: "pie",
   data: {
     datasets: [
@@ -90,15 +84,10 @@ let segundo2 = new Chart(ctx2, {
   },
 });
 
-let ctx3 = document.getElementById("terceiro3").getContext("2d");
-let labels3 = [
-  "Cultivar virtudes",
-  "Agir de tal modo, que minha ação torne-se um modelo de moralidade",
-  "Combinar a imparcialidade da regra de ouro e a maximização da felicidade",
-  "Nenhuma das alternativas anteriores",
-];
-let colorHex3 = ["#3d297e", "#EFCA08", "#df0c75", "#f25c21"];
-let terceiro3 = new Chart(ctx3, {
+let ctx3 = document.getElementById("tres").getContext("2d");
+let labels3 = ["A", "B", "C", "D"];
+let colorHex3 = ["#42177e", "#f25c21", "#df0c75", "#EFCA08"];
+let tres = new Chart(ctx3, {
   type: "pie",
   data: {
     datasets: [
@@ -138,10 +127,10 @@ let terceiro3 = new Chart(ctx3, {
   },
 });
 
-let ctx4 = document.getElementById("quarto4").getContext("2d");
-let labels4 = ["Raciocínio “automático”", "Raciocínio “manual”"];
-let colorHex4 = ["#FB3640", "#3d297e"];
-let quarto4 = new Chart(ctx4, {
+let ctx4 = document.getElementById("quatro").getContext("2d");
+let labels4 = ["A", "B"];
+let colorHex4 = ["#42177e", "#FB3640"];
+let quatro = new Chart(ctx4, {
   type: "pie",
   data: {
     datasets: [
@@ -181,14 +170,10 @@ let quarto4 = new Chart(ctx4, {
   },
 });
 
-let ctx5 = document.getElementById("quinto5").getContext("2d");
-let labels5 = [
-  "Uma criança próxima",
-  "Crianças pobres em terras distantes",
-  "Devemos agir por obrigação moral em ambos os casos",
-];
-let colorHex5 = ["#3d297e", "#EFCA08", "#df0c75"];
-let terceiro5 = new Chart(ctx5, {
+let ctx5 = document.getElementById("cinco").getContext("2d");
+let labels5 = ["A", "B", "C"];
+let colorHex5 = ["#42177e", "#f25c21", "#df0c75"];
+let cinco = new Chart(ctx5, {
   type: "pie",
   data: {
     datasets: [
@@ -228,10 +213,10 @@ let terceiro5 = new Chart(ctx5, {
   },
 });
 
-let ctx6 = document.getElementById("sexto6").getContext("2d");
-let labels6 = ["Sim, eu sei", "Não, eu não sei"];
-let colorHex6 = ["#EFCA08", "#3d297e"];
-let quarto6 = new Chart(ctx6, {
+let ctx6 = document.getElementById("seis").getContext("2d");
+let labels6 = ["A", "B"];
+let colorHex6 = ["#42177e", "#EFCA08"];
+let seis = new Chart(ctx6, {
   type: "pie",
   data: {
     datasets: [
@@ -271,10 +256,10 @@ let quarto6 = new Chart(ctx6, {
   },
 });
 
-let ctx7 = document.getElementById("setimo7").getContext("2d");
-let labels7 = ["Sim", "Não"];
-let colorHex7 = ["#df0c75", "#3d297e"];
-let quarto7 = new Chart(ctx7, {
+let ctx7 = document.getElementById("sete").getContext("2d");
+let labels7 = ["A", "B"];
+let colorHex7 = ["#42177e", "#df0c75"];
+let sete = new Chart(ctx7, {
   type: "pie",
   data: {
     datasets: [
@@ -314,10 +299,10 @@ let quarto7 = new Chart(ctx7, {
   },
 });
 
-let ctx8 = document.getElementById("oitavo8").getContext("2d");
-let labels8 = ["Sim", "Não"];
-let colorHex8 = ["#df0c75", "#3d297e"];
-let quarto8 = new Chart(ctx8, {
+let ctx8 = document.getElementById("oito").getContext("2d");
+let labels8 = ["A", "B"];
+let colorHex8 = ["#42177e", "#df0c75"];
+let oito = new Chart(ctx8, {
   type: "pie",
   data: {
     datasets: [
