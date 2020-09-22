@@ -96,18 +96,19 @@ body {
 
 .col-container {
   display: table;
-  margin-left: auto;
-  margin-right: auto;
   width: 80%;
-  padding: 10px;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
 }
 .col {
   display: table-cell;
-  padding: 10px;
+  vertical-align: middle;
   justify-content: center;
   align-items: center;
+  padding: 10px;
   margin-left: auto;
   width: 50%;
   margin-right: auto;
@@ -116,7 +117,7 @@ body {
 .flip-card {
   background-color: transparent;
   width: 250px;
-  height: 280px;
+  height: 290px;
   perspective: 1000px;
 }
 
@@ -316,6 +317,15 @@ ul.none {
   margin-left: auto;
 }
 
+.resp {
+  flex-direction: column;
+  width: 60%;
+  line-height: 1.8;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .button {
   padding: 20px 20px;
   font-size: 16px;
@@ -431,6 +441,12 @@ ul.none {
   }
 }
 
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 @media (max-width: 1082px) {
   .col {
     flex-direction: column;
@@ -438,6 +454,20 @@ ul.none {
   }
   .navbar a {
     font-size: 12px;
+  }
+  .video {
+    width: 70%;
+  }
+  .frase {
+    width: 30%;
+    font-size: 10px;
+  }
+  .resp {
+    width: 30%;
+    font-size: 10px;
+  }
+  .button {
+    width: 170px;
   }
 }
 
