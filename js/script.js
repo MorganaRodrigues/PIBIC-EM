@@ -264,7 +264,7 @@ let sete = new Chart(ctx7, {
   data: {
     datasets: [
       {
-        data: [34, 66],
+        data: [66, 34],
         backgroundColor: colorHex7,
       },
     ],
